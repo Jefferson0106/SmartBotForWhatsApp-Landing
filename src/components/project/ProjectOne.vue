@@ -125,7 +125,7 @@ export default {
       inputTelOption: {
         placeholder: 'Ingrese un número de teléfono',
         isSaveMode: true,
-        defaultCountry: 'us', // Establece un país por defecto
+        defaultCountry: 'us',
       },
       isModalVisible: false,
       isThankYouModalVisible: false,
@@ -138,7 +138,7 @@ export default {
     },
     onPhoneInput(value) {
       console.log("Número de teléfono actualizado:", value);
-      this.form.telefono = value; // Actualiza el modelo con el valor correcto
+      this.form.telefono = value; 
     },
     showModal() {
       this.isModalVisible = true;

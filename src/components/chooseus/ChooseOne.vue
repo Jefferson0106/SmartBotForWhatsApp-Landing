@@ -124,7 +124,7 @@
     height: auto;
     max-width: 100%;
     position: relative;
-    top: -29px;
+    top: 20px;
     left: -62px;
 
   }
@@ -224,8 +224,9 @@
 	}
   
 	.robot-image {
-		width: 81%;
-        left: -38px;
+		width: 49%;
+        left: 8px;
+        top: -58px;
 	}
 	.faq-robot{
     text-align: center;
